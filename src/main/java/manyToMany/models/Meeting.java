@@ -4,8 +4,8 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
-@Table(name = "S21Meetings")
+//@Entity
+//@Table(name = "S21Meetings")
 public class Meeting {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "Meeting_seq")

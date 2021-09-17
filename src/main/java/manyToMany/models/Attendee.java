@@ -4,8 +4,8 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
-@Table(name = "S21Attendee")
+//@Entity
+//@Table(name = "S21Attendee")
 @NamedQuery(name = "Attendees.findAll", query = "select a from Attendee a")
 public class Attendee {
     @Id
